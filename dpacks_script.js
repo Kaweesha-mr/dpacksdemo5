@@ -1167,7 +1167,7 @@ function sendToBackend(dpacks_key) {
     console.log("Payload:", payload);
 
 
-    fetch('http://localhost:4001/api/analytics/Alert/sessionrecord', {
+    fetch('https://user.dpacks.net/api/analytics/Alert/sessionrecord', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
